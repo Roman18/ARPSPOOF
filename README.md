@@ -1,13 +1,20 @@
 # ARPSPOOF
 
+## Tiny tool to provide an ARP-Cache-Poisoning attack
+
+### Download
 
 ```console
 python3 -m venv <name of env>
 cd <name of env>/
 git clone <link to repo>
 pip install -r requirements.txt
-
 chmod +x arpspoof.py
+```
+
+### Run
+
+```console
 sudo ./arpspoof.py -h
     ___    ____  ____  _____ ____  ____  ____  ______
    /   |  / __ \/ __ \/ ___// __ \/ __ \/ __ \/ ____/
